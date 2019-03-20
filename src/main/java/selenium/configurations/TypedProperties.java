@@ -11,6 +11,8 @@ import java.util.Properties;
  * provides type-safe access to properties.
  */
 public class TypedProperties {
+	
+	
 	private final Properties properties = new Properties();
 
 	public TypedProperties(String resourceName) {
